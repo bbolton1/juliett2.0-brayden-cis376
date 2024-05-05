@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - bs5-card-and-hamburger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="container-fluid">
+
+  <!--  nav bor  -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://github.com/bbolton1" target="_blank">BB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar"> -->
+        <div class="topnav">
+          <div id="links">
+            <a class="nav-link" href="https://gist.github.com/barrycumbie/2734a9660bacf7cbcc73c65abee0a1c6" target="_blank">Echo Story Card</a>
+            <a class="nav-link" href="https://github.com/bbolton1/brayden-cis376-echo" target="_blank">Code</a>
+            <a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbbolton1.github.io%2Fbrayden-cis376-echo%2F" target="_blank">Check this page's validation</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </a>
+        </div>
+      <!-- </div> -->
+    </div>
+  </nav>
+
+  <div class="row">
+
+    <div id="titleBar" class="col-md-8 offset-md-2">
+
+      <h1>Central game hub</h1>
+      <h4>Welcome to my page! Feel free to look around and try whatever you want. </h4>
+
+    </div>
+
+  </div>
+
+  <div id="arrow" class="col-md-12">
+    <span class="text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z"/>
+      </svg>
+    </span>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card m-3 bg-secondary text-white">
+        <h4 class="card-title">Charlie</h4>
+        <div class="card-body">
+          <!-- <img class="card-img-top img-responsive" src="img_avatar1.png" alt="Card image"> -->
+          <p class="card-text">A game in which you have to help a strange man cross the screen</p>
+          <a href="https://github.com/bbolton1/CIS376-Charlie-Brayden" class="btn btn-primary" target="_blank">See Repo</a>
+          <a href="https://gist.github.com/barrycumbie/194304d1a9f79f9bf640319d56139ce7" class="card-link" target="_blank">Card link</a>
+
+<!--           <a href="#" class="card-link">Another link</a> -->
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="col-md-4">
+      <div class="card m-3 bg-secondary text-white">
+        <h4 class="card-title">Delta</h4>
+        <div class="card-body">
+          <!-- <img class="card-img-top" src="img_avatar1.png" alt="Card image"> -->
+          <p class="card-text">Halves and reverses your name and assigns you a fantasy species based on birth month</p>
+          <a href="https://github.com/bbolton1/delta-lab-brayden" class="btn btn-primary" target="_blank">See Repo</a>
+          <a href="https://gist.github.com/barrycumbie/78bd9837931e83734f319ae043364ef5" class="card-link" target="_blank">Card link</a>
+<!--           <a href="#" class="card-link">Another link</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+      <footer>
+        <p> <!-- allows ease of separation between elements-->
+          <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+          |
+          <a href="https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target="_blank">cis 376 🚀 page</a>
+          | 
+          <a href="https://www.geeksforgeeks.org/" target="_blank">geeksforgeeks</a>
+          | 
+          Brayden Bolton
+        </p>
+      </footer>
+    </div>
+
+    <!-- closes main content container   -->
+  </div>
+
+  <!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js'></script>
+<script src="./scripts/script.js"></script>
+
+</div>
+</body>
+</html>
